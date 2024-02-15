@@ -17,7 +17,7 @@ let h1 = document.querySelector("h1"); //Grab the large "Refresh Me"
 if (randomNum > randomNumTwo) {
 	h1.innerHTML = "🚩Player 1 Wins!";
 } else if (randomNum < randomNumTwo) {
-	h1.innerHTML = "Player 2 Wins!🚩";
+	h1.innerHTML = "Player 2 Wins! 🚩";
 } else {
 	h1.innerHTML = "Draw!";
 }
